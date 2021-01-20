@@ -7,10 +7,10 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
    
        
-        <title>About Page</title>
+        <title>Todos</title>
      </head>
      
      <body>
-          <h1>The About Page </h1>
+          <h1>TODOS PAGE </h1>
      </body>
  </html>

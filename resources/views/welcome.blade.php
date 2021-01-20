@@ -80,10 +80,7 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    OulaAPP
-                    
-                </div>
+                <a href="/todos" >Todos</a>
 
                 
             </div>
