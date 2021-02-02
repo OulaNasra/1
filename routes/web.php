@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 Route::get('todos','TodosController@index');
 Route::get("contact",'AboutController@index1');
+Route::get('todos/{todos}','TodosController@show');
