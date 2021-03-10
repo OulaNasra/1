@@ -27,7 +27,7 @@
        
        
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/new-todos">Create todos</a>
+          <a class="nav-link active" aria-current="page" href="/new-todos">Create todos<span class ="sr-only">(current)</span></a>
         </li>
         
       </ul>
