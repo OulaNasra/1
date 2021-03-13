@@ -80,7 +80,7 @@
             @endif
 
             <div class="content">
-                <a href="/todos" >Todos</a>
+                <h1> <a href="/todos" >Todos</a></h1>
 
                 
             </div>

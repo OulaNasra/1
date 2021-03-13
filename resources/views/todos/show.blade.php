@@ -1,35 +1,35 @@
 @extends('layouts.app')
-@section('title')
-  Single Todo: {{$todo->name}}
+  @section('title')
+    Single Todo: {{$todo->name}}
   @endsection
 
 
-@section('content')
-<h1 class="text-center my-5">
+ @section('content')
+   <h1 class="text-center my-5">
         {{$todo->name}}
-        </h1>
-        <div class="row justify-content-center">
-        <div class="col-md-6">
+   </h1>
+         <div class="row justify-content-center">
+            <div class="col-md-6">
         
-        <div class="card card-default">
-          <div class="card-header">
-             Details
-          </div>
-           <div class="card card-body">
-             {{$todo->description}}
-             </div>
-              <div class="card card-default">
-               <div class="card-header">
-                Completed
-               </div>
-                  <div class="card card-body">
-                     {{$todo->completed}} 
+               <div class="card card-default">
+                  <div class="card-header">
+                     Details
                   </div>
+                    <div class="card card-body">
+                      {{$todo->description}}
+                    </div>
+                     <div class="card card-default">
+                       <div class="card-header">
+                         Completed
+                       </div>
+                         <div class="card card-body">
+                           {{$todo->completed}} 
+                         </div>
+                         
+                     </div>
+                      
                </div>
-         
-            
-         </div>
-
-        </div>
+               <a href="/todos/{{$todo->id}}/edit" class="btn btn-info btn-sm my-2">Edit</a>
+            </div>
         </div>
 @endsection
