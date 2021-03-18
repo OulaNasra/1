@@ -16,7 +16,10 @@
              <li class ="list-group-item">
                {{$todo->name}}
                 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                  <a href="/todos/{{$todo->id}}" class="btn btn-success me-md-2" type="button">View</a>
+                  <a href="/todos/{{$todo->id}}" class="btn btn-success me-md-2 btn-sm" type="button" >View</a>
+                  @if (!$todo -> completed)
+                  <a href="/todos/{{$todo->id}}/complete" style="color:white;" class="btn btn-warning btn-sm">Complete</a>
+                  @endif
                </div>
              </li>
              @endforeach
